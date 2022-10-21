@@ -1,0 +1,131 @@
+*{
+    margin:0;
+}
+.card{
+    background-color: #1A1B21;
+    width: 320px;
+    height: 720px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-card{
+    width: 550px;
+    /* height: 868px; */
+    background-color: #23252C;
+    margin:10px;
+    padding:100px 0px 100px 0px;
+    display:flex;
+    justify-content: center;
+}
+
+.card-image{
+    width: 320px;
+    height: 320px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.person-title{
+    /* padding:15px; */
+    padding-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color:white;
+    text-align: center;    
+}
+
+.person-designation{
+    text-align: center;
+    color: #F3BF99;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.person-email{
+    color:#fff;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 12px;
+    text-align: center;
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+
+#email-btn{
+    padding: 5px;
+    margin:10px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px 25px 6px 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #1E1F26;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+#linkedin-btn{
+    padding: 5px;
+    margin:10px;
+    background-color: #5093E2;
+    border-radius: 5px;
+    padding: 6px 25px 6px 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; 
+    cursor: pointer;
+    border: none ;
+}
+
+
+#linkedin-btn:hover{
+    color:white;
+    cursor: default
+}
+
+#email-btn:hover{
+    color:#1E1F26;
+    cursor: default
+}
+
+.ico{
+    padding-right: 10px;
+    /* padding-left: 10;
+    padding-right: 10; */
+}
+
+.description-div{
+    padding:12px 35px 0px 35px;
+    color:white;
+}
+
+.description-div > h5{
+    font-weight: 600;
+}
+
+.description-div > p{
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 9px;
+}
+.footer{
+    background-color: #161619;
+    color:#918E9B;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-ico{
+    padding-right: 15px;
+    font-size: 22px;
+}
